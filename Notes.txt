@@ -1,8 +1,16 @@
-1. simple props 
+
 
 https://youtu.be/mDu54a5U3OU?si=0-lS6AGgZROb4Qin
-2. props with objects 
-3. Props with array
+3. simple props 
+4. props with objects 
+5. Props with array
 
 https://youtu.be/xNSIHFi8o2M?si=zqlR39Y_RzR8emKb
-4. Input and button events
+6. Input and button events
+
+https://youtu.be/4Ml7Lp_QcSo?si=1FOFRMH7bSisggmD
+7.Even CSS can have types
+
+https://youtu.be/4Ml7Lp_QcSo?si=HoMey6FKMwGGJnZJ
+8. Import export types
+

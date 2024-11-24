@@ -1,6 +1,7 @@
 // import React, { FC, ReactElement } from 'react'
 import Events01 from './Components/Events/Button'
 import Input from './Components/Events/Input'
+import Index from './Components/ExportingTypes'
 import TsProps from './Components/Props/Props1'
 import Props2 from './Components/Props/Props2'
 // Don't write if you don't use 
@@ -47,8 +48,11 @@ const [input, setInput] = useState("")
 
 {/*for string you can use it without curly but with others you can't just a syntax rule   */}
 {/* If you define props then you have to use it otherwise face intrinsic Attribute error  */}
+
+<Index />
     </div>
    
+  
   )
 }
 
