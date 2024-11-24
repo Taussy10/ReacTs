@@ -3,3 +3,6 @@
 https://youtu.be/mDu54a5U3OU?si=0-lS6AGgZROb4Qin
 2. props with objects 
 3. Props with array
+
+https://youtu.be/xNSIHFi8o2M?si=zqlR39Y_RzR8emKb
+4. Input and button events
