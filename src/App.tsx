@@ -1,5 +1,6 @@
 // import React, { FC, ReactElement } from 'react'
-import TsProps from './Components/Props/01_TsProps'
+import Events01 from './Components/Events/Button'
+import TsProps from './Components/Props/Props1'
 import Props2 from './Components/Props/Props2'
 // Don't write if you don't use 
 
@@ -30,6 +31,10 @@ const personName ={
 <TsProps name= {"Hey I'm props"} isLogged={true} num = {41} />
 {/* 2. Passed that object */}
 <Props2 name={personName} />
+
+<Events01 handleClick={(e) => console.log("hello" ,e.target) } 
+  // handle click props having a function
+  />
 
 {/*for string you can use it without curly but with others you can't just a syntax rule   */}
 {/* If you define props then you have to use it otherwise face intrinsic Attribute error  */}
