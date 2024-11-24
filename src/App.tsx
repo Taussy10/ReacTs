@@ -1,7 +1,7 @@
-import React, { FC, ReactElement } from 'react'
+// import React, { FC, ReactElement } from 'react'
 import TsProps from './Components/Props/01_TsProps'
 import Props2 from './Components/Props/Props2'
-// Don't import if you didn't use.
+// Don't write if you don't use 
 
 
 const App = () => {

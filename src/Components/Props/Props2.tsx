@@ -8,12 +8,15 @@ type nameProps ={
     first: string
     last: string
   } 
+  count?: number
+  // for making optional prop
 }
 const Props2 = (props:nameProps) => {
   return (
     <div>
       <h1>{props.name.first}</h1>
-      {/* props then variable then object */}
+      <h1>{props.count}</h1>
+      {/* props then variable then got object key */}
     </div>
   )
 }
