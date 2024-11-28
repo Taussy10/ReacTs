@@ -1,5 +1,6 @@
 // import React, { FC, ReactElement } from 'react'
 import ButtonContext from './Components/Context/ButtonContext'
+import Try from './Components/Context/Try'
 import Events01 from './Components/Events/Button'
 import Input from './Components/Events/Input'
 import Index from './Components/ExportingTypes/Index'
@@ -59,6 +60,7 @@ const demoContext = createContext("Hello")
 
 <Index />
 <ButtonContext />
+<Try />
     </div>
    
   
