@@ -14,3 +14,32 @@ https://youtu.be/4Ml7Lp_QcSo?si=1FOFRMH7bSisggmD
 https://youtu.be/4Ml7Lp_QcSo?si=HoMey6FKMwGGJnZJ
 8. Import export types
 
+
+React Context explained
+What: Let's you create context that can given to other components
+
+
+Why: For sending data from one place to another like a props but larger than
+props like a zustan but small than it 
+Create a context(some data) that you want that other(all) 
+component read or provide (Yeah it's like zustand but it uses for lil on small scale)
+
+React.createContext: is a hook in which we context object(basically data)
+const MyContext = React.createContext("Hello);
+
+
+Hello is default value when there is 
+if you don't have default value then use "null"
+
+createContext returns a context object that has two values 
+1. provider: for sharing the value
+2. Consumer: for using the value
+
+
+Provider: has param called value
+Value: is that value that you want to pass
+
+1. Create the Context 
+2. Provide the Value
+3. Wrap the context with the app
+3. Consume the Value

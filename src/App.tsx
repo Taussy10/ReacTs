@@ -1,11 +1,16 @@
 // import React, { FC, ReactElement } from 'react'
+import ButtonContext from './Components/Context/ButtonContext'
 import Events01 from './Components/Events/Button'
 import Input from './Components/Events/Input'
-import Index from './Components/ExportingTypes'
+import Index from './Components/ExportingTypes/Index'
 import TsProps from './Components/Props/Props1'
 import Props2 from './Components/Props/Props2'
 // Don't write if you don't use 
 import { useState } from 'react'
+
+// import creat contxt from React
+import { createContext } from 'react'
+
 
 const App = () => {
 // By default return type of a functional component is JSX.Element or ReactElement
@@ -23,6 +28,9 @@ const personName ={
   last: "Wayne",
 }
 const [input, setInput] = useState("")
+
+const demoContext = createContext("Hello")
+
   return (
 
     // How to work with props 
@@ -50,6 +58,7 @@ const [input, setInput] = useState("")
 {/* If you define props then you have to use it otherwise face intrinsic Attribute error  */}
 
 <Index />
+<ButtonContext />
     </div>
    
   
