@@ -28,6 +28,7 @@ export const TestContextProvider:FC<{children: React.ReactNode , }> = ({children
 // 3. Provide context to the app (see in main.tsx)
 
 // 4. Create a custom hook(function) for using the context
+// provide the context in the useContext hook 
 export const useTestContext = ()  => useContext(TestContext)
 
 // Let's create another context

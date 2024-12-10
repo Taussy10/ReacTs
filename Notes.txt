@@ -43,3 +43,11 @@ Value: is that value that you want to pass
 2. Provide the Value
 3. Wrap the context with the app
 3. Consume the Value
+
+How to learn
+1. What 
+2. Why: Purpose
+3. Write down core concept of the topic 
+and try to understand them 
+4. Start praticing then fail then paas then again fail 
+and keep doing till you understand everything

@@ -8,6 +8,7 @@ import { TestContext, useTestContext } from './Context'
 
 const ButtonContext = () => {
  const contextValue = useContext(TestContext)
+//  get the context by providing context to useContext
   return (
     <div>{contextValue}</div>
   )
